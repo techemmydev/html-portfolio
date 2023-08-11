@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+.slider-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 4s infinite;
+  position: absolute;
+  cursor: pointer;
+  align-items: center;
+  background-color: black;
+}
+
+.load {
+  animation: slide 2s;
+}
+.content-achievement {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+.span-color {
+  color: green;
+}
+
+.name {
+  font-size: 3em;
+  color: wheat;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: wheat;
+}
+.principal {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.principal a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  color: green;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  background: white;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+.principal a:hover {
+  background: green;
+  color: white;
+  border-radius: 55px;
+  transition: 0.2s;
+}
+.principal a:active {
+  color: white;
+}
+@keyframes slide {
+  0% {
+    background-image: url("../img/mohammad-rahmani-DwDZ5mgwhsc-unsplash.jpg");
+  }
+  20% {
+    background-image: url("../img/mohammad-rahmani-DwDZ5mgwhsc-unsplash.jpg");
+  }
+  20.01% {
+    background-image: url("../img/goran-ivos-iOykDIkZLQw-unsplash.jpg");
+  }
+  40% {
+    background-image: url("../img/goran-ivos-iOykDIkZLQw-unsplash.jpg");
+  }
+  40.01% {
+    background-image: url("../img/lap3.avif");
+  }
+  60% {
+    background-image: url("../img/lap3.avif");
+  }
+  60.01% {
+    background-image: url("../img/laptoop.avif");
+  }
+  80% {
+    background-image: url("../img/laptoop.avif");
+  }
+  80.01% {
+    background-image: url("../img/laptop2.avif");
+  }
+  100% {
+    background-image: url("../img/laptop2.avif");
+  }
+}
+
+.fixed {
+  position: absolute;
+  color: wheat;
+  bottom: 60px;
+  right: 50px;
+}
+#i {
+  color: white;
+  font-size: 30px;
+}
+#i:hover {
+  color: green;
+  font-size: 50px;
+}
+/*
+.container {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: gainsboro;
+}
+ul li:nth-child(2 even odd){
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+nav {
+  border: 2px solid black;
+  border-radius: 2rem;
+  margin: 0 auto 1rem;
+  max-width: 600px;
+  font-size: 3rem;
+}
+h2 {
+  padding: 1rem;
+  background-color: gold;
+  border-radius: 2rem 2rem 0 0;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  border-top: 1px solid black;
+}
+li a {
+  display: block;
+}
+li a,
+li a:visited {
+  text-decoration: none;
+  color: hotpink;
+}
+li a:hover,
+li a:focus {
+  background-color: blue;
+  color: whitesmoke;
+  cursor: pointer;
+}
+li:last-child a {
+  border-radius: 0 0 2rem 2rem;
+}
+ul{
+  list-style: none;
+  padding: 0.5rem;
+  text-align: left;
+  background-color: black;
+}
+li{
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+.column{
+  column-count:4;
+  column-width:250px;
+  coukum -rule:3px solid black;
+  coulmn -gap:
+}
+*/
+
+.content-achievement1 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+.big-image {
+  background-image: url("../img/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: sticky;
+  z-index: 1;
+}
+
+.no header {
+  color: green;
+  text-transform: uppercase;
+  padding: 2rem;
+  margin: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+/*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+ /* background-color: white;
+  border-bottom: 1px solid wheat;*/
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+ 
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 2rem;
+  text-transform: capitalize;
+}
+#navbar ul li a {
+  text-decoration: none;
+  padding: 12px;
+  color: wheat;
+  font-weight: 900;
+  font-size: 17px;
+}
+#navbar ul li a:hover {
+  transition: 0.3s;
+  color: green;
+  border-bottom: 1px white solid;
+  border-bottom-color: wheat;
+}
+
+/*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/
+
+.title {
+  width: 30%;
+  position: absolute;
+  color: blanchedalmond;
+  bottom: 0;
+  margin-left: 8rem;
+  margin-bottom: 15rem;
+  text-transform: capitalize;
+}
+
+.title2 {
+  position: absolute;
+  color: wheat;
+  top: 450px;
+  right: 100px;
+}
+.title2 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  color: green;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  background: white;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+.title2 a:hover {
+  background: green;
+  color: wheat;
+  border-radius: 55px;
+  transition: 0.2s;
+}
+.icon {
+  color: antiquewhite;
+  margin-top: 30rem;
+
+  margin-left: 8rem;
+  font-size: 40px;
+  text-align: center;
+
+  float: left;
+}
+
+.brotherlylove {
+  float: right;
+  width: 50%;
+  margin-right: 20px;
+  padding: 10px;
+  margin-top: 70px;
+}
+.brotherlylove h1 {
+  color: green;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  animation: names 4s;
+  animation-iteration-count: infinite;
+}
+.brotherlylove p {
+  color: wheat;
+  text-transform: capitalize;
+  line-height: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 800;
+}
+.brotherlylove a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-left: 14rem;
+  padding: 20px;
+  border-radius: 30px;
+  background: green;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+.brotherlylove a:hover {
+  color: green;
+  background-color: wheat;
+}
+
+.brotherlylove3 {
+  float: left;
+  background-image: url("../img/ben-kolde-Ajcipx1VDXI-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 300px;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.brotherlylove3:hover {
+  background-image: url("../img/mohammad-rahmani-DwDZ5mgwhsc-unsplash.jpg");
+  cursor: pointer;
+}
+
+/*brotherlylove*/ /*brotherlylove*/ /*brotherlylove*/ /*brotherlylove*/ /*brotherlylove*/ /*brotherlylove*/
+
+/*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/
+
+.ourcolevalue {
+  margin-top: 10rem;
+}
+.headingsforcolevalue {
+  margin-top: 5rem;
+  float: left;
+  width: 30.1%;
+  border: none;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.headingsforcolevalue p {
+  color: #333;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 30px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ourcolevalue h1 {
+  color: #333;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.ourcolevalue i {
+  font-size: 40px;
+  color: royalblue;
+}
+/*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/ /*ourcolevalue*/
